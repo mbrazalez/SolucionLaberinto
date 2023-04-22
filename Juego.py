@@ -23,10 +23,10 @@ class Juego:
     def fabricarHabitacion(self,num):
         habitacion = Habitacion()
         habitacion.num = num
-        habitacion.orientacion = self.fabricarPared()
-        habitacion.orientacion = self.fabricarPared()
-        habitacion.orientacion = self.fabricarPared()
-        habitacion.orientacion = self.fabricarPared()
+        habitacion.este = self.fabricarPared()
+        habitacion.oeste = self.fabricarPared()
+        habitacion.norte = self.fabricarPared()
+        habitacion.sur = self.fabricarPared()
 
         return habitacion
     
